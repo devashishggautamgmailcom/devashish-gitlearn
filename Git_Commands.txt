@@ -1,0 +1,8 @@
+Git Commands
+-----------------
+$ git --version
+
+git config --global user.email "devashishgautam8@gmail.com"
+git config --global user.name "devashish"
+git config --list
+
