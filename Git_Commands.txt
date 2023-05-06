@@ -11,4 +11,11 @@ $ git commit -m "First Commit On first.html file"
 $ git add -A
 $ git commit -m "2nd Commit On All file" 
 $ git checkout first.html
+$ git diff
+$ git diff --staged
+$ git diff --HEAD // STAGING Area changes
+$ git diff HEAD // Commit Area changes
+$ git log (ALL Log Details)
+$ git log  -p -2 (Last 2 Log Details)
+$ git log --stat
 
