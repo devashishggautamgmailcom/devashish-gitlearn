@@ -1,3 +1,4 @@
+-----------------
 Git Commands
 -----------------
 $ git --version
@@ -18,4 +19,10 @@ $ git diff HEAD // Commit Area changes
 $ git log (ALL Log Details)
 $ git log  -p -2 (Last 2 Log Details)
 $ git log --stat
-
+$ git rm --cached extra.html
+$ git branch --list
+$ git rm -f extra.html
+$ git branch --list
+$ git branch user1_branch1
+$ git checkout user1_branch1
+$ git merge user1_branch1
