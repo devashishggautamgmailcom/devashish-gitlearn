@@ -1,3 +1,14 @@
+<html>
+
+<body>
+    <center>
+        <h2>First Program of github...</h2>
+    </center>
+</body>
+
+</html>
+
+
 -----------------
 Git Commands
 -----------------
@@ -26,3 +37,25 @@ $ git branch --list
 $ git branch user1_branch1
 $ git checkout user1_branch1
 $ git merge user1_branch1
+
+$ git remote add origin https://github.com/devashishggautamgmailcom/devashish-gitlearn.git
+
+$ git remote -v
+origin  https://github.com/devashishggautamgmailcom/devashish-gitlearn.git (fetch)
+origin  https://github.com/devashishggautamgmailcom/devashish-gitlearn.git (push)
+
+$ git branch -M main
+$ git push -u origin main
+
+
+
+…or create a new repository on the command line
+echo "# devashish-gitlearn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/devashishggautamgmailcom/devashish-gitlearn.git
+git push -u origin main
+
+…or push an existing repository from the command line
