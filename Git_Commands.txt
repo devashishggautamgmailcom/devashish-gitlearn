@@ -10,3 +10,5 @@ $ git add  first.html
 $ git commit -m "First Commit On first.html file"
 $ git add -A
 $ git commit -m "2nd Commit On All file" 
+$ git checkout first.html
+
